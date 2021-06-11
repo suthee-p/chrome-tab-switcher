@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tab Switcher</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <table style="min-width: 180px;">
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <h3 style="line-height: 0.25rem;">Tab Switcher</h3> by <a href="https://github.com/suthee-p/chrome-tab-switcher" target="_blank">Tom Suthee</a>
+          <hr>
+        </td>
+      </tr>
+      <tr style="height: 28px;">
+        <td style="min-width: 60px;">
+          Scope
+        </td>
+        <td style="width: 60%; min-width: 120px;">
+          <select id="select-scope" style="width: 100%; height: 24px;"></select>
+        </td>
+      </tr>
+      <tr style="height: 28px;">
+        <td>
+          Interval
+        </td>
+        <td>
+          <select id="select-interval" style="width: 100%; height: 24px;">
+            <option value="1">1s</option>
+            <option value="3" selected>3s</option>
+            <option value="5">5s</option>
+            <option value="10">10s</option>
+            <option value="15">15s</option>
+            <option value="30">30s</option>
+            <option value="60">1m</option>
+            <option value="300">5m</option>
+            <option value="600">10m</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <hr>
+          <button id="btn-toggle" style="width: 100%; height: 40px"></button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

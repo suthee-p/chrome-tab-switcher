@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+
+  "name": "Tab Switcher",
+  "description": "Simple Chrome tab switcher which user can scope to pinned tab, group or window",
+  "version": "1.0",
+  "action": {
+   "default_icon": "icon.png",
+   "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs", "tabGroups", "storage"
+   ]
+}
